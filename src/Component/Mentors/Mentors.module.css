@@ -1,0 +1,52 @@
+.main{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.container{
+    /* border: 2px solid yellow; */
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.first{
+    /* border: 2px solid black; */
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.mentor{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width :18rem;
+    
+   
+    
+}
+.profile{
+    /* border: 2px solid blue; */
+    width: 10rem;
+    text-align: center;
+}
+
+.logo{
+    width: 14rem;
+    mix-blend-mode: multiply;
+}
+.person{
+    border-radius: 100%;
+}
+
