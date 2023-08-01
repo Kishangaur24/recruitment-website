@@ -19,3 +19,20 @@ img{
     align-items: center;
     width: 50rem;
 }
+
+@media screen and (max-width: 762px) {
+    html{
+        font-size: 8px;
+    }
+    .main{
+        margin-top: 25rem;
+    }
+}
+@media screen and (max-width: 475px){
+  html{
+    font-size: 6px;
+  }
+  img{
+    height: 2rem;
+  }
+}
