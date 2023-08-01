@@ -1,0 +1,30 @@
+.main{
+    
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.step1{
+   
+    text-align: center;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.step1 h6{
+    font-weight: 700;
+    width: 25rem;
+}
+.step1 img{
+   
+    height: 4rem;
+    width: 4rem;
+}
+
+
