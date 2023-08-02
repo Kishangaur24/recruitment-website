@@ -8,6 +8,7 @@ import Company from '../../Component/hiringPartner/Company'
 import Techies from '../../Component/Techies/Techies'
 import Mentors from '../../Component/Mentors/Mentors'
 import Build from '../../Component/BuildByTechies/Build'
+import Footer from '../../Component/Footer/Footer'
 const HomePage = () => {
   return (
     <div className={style.main}>
@@ -18,6 +19,7 @@ const HomePage = () => {
      <Techies/>
      <Mentors/>
      <Build/>
+     <Footer/>
     </div>
   )
 }
