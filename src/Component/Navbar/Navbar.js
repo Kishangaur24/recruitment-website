@@ -12,10 +12,10 @@ function Navbar1() {
             
           <Nav className="ml-auto  ">
            
-            <Nav.Link href="/employee">For Employers</Nav.Link>
-            <Nav.Link href="/refer">Refer & Earn ₹15k</Nav.Link>
-            <Nav.Link href="/login">Login</Nav.Link>
-            <Nav.Link href="/signup">SignUp</Nav.Link>
+            <Nav.Link href="/employee" className='text-primary '>For Employers</Nav.Link>
+            <Nav.Link href="/refer" className='text-primary'>Refer & Earn ₹15k</Nav.Link>
+            <Nav.Link href="/login" className='text-primary'>Login</Nav.Link>
+            <Nav.Link href="/signup" className='text-primary'>SignUp</Nav.Link>
             
          
           </Nav>

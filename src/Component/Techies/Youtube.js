@@ -9,8 +9,8 @@ const YouTubeVideo = ({ videoId }) => {
     <div className={style.videoContainer}>
       <iframe
         title="YouTube Video Player"
-        width="560"
-        height="317"
+        width="350"
+        height="250"
         src={embedUrl}
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
