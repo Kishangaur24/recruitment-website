@@ -36,7 +36,7 @@ const Mentors = () => {
             <img className={style.person} src='https://tse1.mm.bing.net/th?id=OIP.xn4yG10rX6X4uhzIgvk93QAAAA&pid=Api&P=0&h=180'/>
             <div className={style.profile}>
             <h6>Prites Kumar</h6>
-            <p>Sr. Data Science Engineer</p>
+            <p>Sr. Data Scientist</p>
             </div>
             </div>
            <p>TopHire was able to make the process really easy. They were able to schedule interviews with the best companies in the industry and drove the entire process smoothly.</p>

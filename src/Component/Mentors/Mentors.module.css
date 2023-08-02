@@ -50,3 +50,36 @@
     border-radius: 100%;
 }
 
+@media screen and (max-width:510px) {
+    .main{
+        flex-direction: column;
+        margin-top: 4rem;
+      
+    }
+    .mentor{
+        width: 30rem;
+        
+    }
+    .container .logo{
+        width: 30rem;
+        height: 7rem;
+    }
+    .profile{
+        border :2px solid red;
+        width: 20rem;
+        font-size: 2rem;
+    }
+    .person{
+        width: 7rem;
+        height: 7rem;
+    }
+    .profile h6{
+        font-size: 2rem;
+    }
+    .first p{
+        font-size: 2rem;
+        width: 25rem;
+    }
+  
+}
+

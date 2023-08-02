@@ -14,7 +14,7 @@ const HomePage = () => {
      <Description/>
      <Step/>
      <Company/>
-     <Techies/>
+     {/* <Techies/> */}
      <Mentors/>
     </div>
   )
