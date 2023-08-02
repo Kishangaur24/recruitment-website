@@ -7,6 +7,7 @@ import style from "./HomePage.module.css"
 import Company from '../../Component/hiringPartner/Company'
 import Techies from '../../Component/Techies/Techies'
 import Mentors from '../../Component/Mentors/Mentors'
+import Build from '../../Component/BuildByTechies/Build'
 const HomePage = () => {
   return (
     <div className={style.main}>
@@ -14,8 +15,9 @@ const HomePage = () => {
      <Description/>
      <Step/>
      <Company/>
-     {/* <Techies/> */}
+     <Techies/>
      <Mentors/>
+     <Build/>
     </div>
   )
 }

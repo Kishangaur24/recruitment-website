@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 2rem;
     
     
 }
@@ -65,7 +66,7 @@
         height: 7rem;
     }
     .profile{
-        border :2px solid red;
+       
         width: 20rem;
         font-size: 2rem;
     }
