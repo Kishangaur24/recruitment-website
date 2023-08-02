@@ -1,9 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import style from "./Navbar.module.css"
 function Navbar1() {
   return (
+    <div className={style.nav}>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home"><img src='https://static.ambitionbox.com/static/icons/company-placeholder.svg' height="40px" />Coursify</Navbar.Brand>
@@ -23,6 +24,7 @@ function Navbar1() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
   );
 }
 

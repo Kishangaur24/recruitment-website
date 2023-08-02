@@ -1,0 +1,15 @@
+.nav{
+    
+ 
+}
+
+@media screen and (max-width:510px) {
+    .nav{
+        font-size: 2rem;
+        height: 9rem;    
+       
+    }
+    .nav img{
+        height: 40px;
+    }
+}
