@@ -4,7 +4,10 @@ import {LiaFacebook} from "react-icons/lia"
 import {BsInstagram} from "react-icons/bs"
 import {CiLinkedin} from "react-icons/ci"
 import style from "./Footer.module.css"
+
 const Footer = () => {
+ 
+ 
   return (
   
     <div className={style.footer}>
@@ -12,10 +15,11 @@ const Footer = () => {
         <img className={style.logo} src='https://d383au3bye3rv1.cloudfront.net/static/images/logo/main.png' height="1rem" width="30rem"/>
        <p> TopHire is on a mission to make it dead simple for leading Indian startups to hire the top 2% of tech talent.</p>
        <div className={style.logo2}>
-        <h4 ><CiTwitter/></h4>
-       <h4> <LiaFacebook/></h4>
-        <h4><BsInstagram/></h4>
-       <h4> <CiLinkedin/></h4>
+       <a href='https://www.twitter.com/' target="_blank" ><CiTwitter/></a>
+       <a href='https://www.instagram.com/' target="_blank" ><BsInstagram/></a>
+       <a href='https://www.facebook.com/' target="_blank" ><LiaFacebook/></a>
+       <a href='https://www.linkedin.com/' target="_blank" ><CiLinkedin/></a>
+       
        </div>
       </div>
       <div className={style.first}>
